@@ -74,6 +74,7 @@ router.post('/users', [
         .exists({ checkNull: true, checkFalsy: true })
         .withMessage('Please provide a value for "lastName"'),
       check('emailAddress')
+        .isEmail()
         .exists({ checkNull: true, checkFalsy: true })
         .withMessage('Please provide a value for "email"'),
       check('password')
