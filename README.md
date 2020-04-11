@@ -15,15 +15,15 @@
 <h4><b>6. Start up Postman</b></h4>
 <h4><b>7. Use 'POST', to test creating users to database http://localhost:5000/api/users</b></h4>
 </br>
-<p align="center"><a><img src="https://github.com/sargef/school-restapi-backend/blob/master/assets/postUser.png" width="200" height="70"></a></p>
+<p align="center"><a><img src="https://github.com/sargef/school-restapi-backend/blob/master/assets/postUser.png" width="400" height="200"></a></p>
 </br>
 <h4><b>8. Use 'GET', to test users within database http://localhost:5000/api/users</b></h4>
 </br>
-<p align="center"><a><img src="https://github.com/sargef/school-restapi-backend/blob/master/assets/getUser.png" width="200" height="70"></a></p>
+<p align="center"><a><img src="https://github.com/sargef/school-restapi-backend/blob/master/assets/getUser.png" width="400" height="200"></a></p>
 </br>
 <h4><b>9. Use 'POST', test creating courses to database http://localhost:5000/api/users</b></h4>
 </br>
-<p align="center"><a><img src="https://github.com/sargef/school-restapi-backend/blob/master/assets/postCourse.png" width="200" height="70"></a></p>
+<p align="center"><a><img src="https://github.com/sargef/school-restapi-backend/blob/master/assets/postCourse.png" width="400" height="200"></a></p>
 </br>
 <h4><b>10. You can try omitting values required for each users and courses data values, partially entering data to test that the error messages are working.</b></h4>
 <br />
