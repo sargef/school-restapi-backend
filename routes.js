@@ -74,9 +74,10 @@ router.post('/users', [
         .exists({ checkNull: true, checkFalsy: true })
         .withMessage('Please provide a value for "lastName"'),
       check('emailAddress')
-        .isEmail()
-        .exists({ checkNull: true, checkFalsy: true })
-        .withMessage('Please provide a value for "email"'),
+        .exists({ checkNull: true, checkFalsy: true, checkisEmail: true })
+        .withMessage('Please provide a value for "email"')
+        .isEmail({ checkisEmail: true})
+        .withMessage('Please provide a valid email'),
       check('password')
         .exists({ checkNull: true, checkFalsy: true })
         .withMessage('Please provide a value for "password"')
@@ -150,7 +151,7 @@ router.put('/courses/:id', [
         .withMessage('Please provide a value for "title"'),
       check('description')
         .exists({ checkNull: true, checkFalsy: true })
-        .withMessage('Please provide a value for " course description"')
+        .withMessage('Please provide a value for "course description"')
 ], authenticateUser, asyncHandler(async(req, res) => {
   const errors = validationResult (req);
   if(!errors.isEmpty()) {
