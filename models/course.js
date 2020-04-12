@@ -11,33 +11,18 @@ module.exports = (sequelize) => {
     },
     userId: {
       type: Sequelize.INTEGER,
-      allowNull: false,
     },
     title: {
       type: Sequelize.STRING,
-      allowNull: false,
-	  validate: {
-		  notEmpty: {
-			  msg: "Please enter a title for the course name"
-			}
-		}
     },
     description: {
         type: Sequelize.TEXT,
-        allowNull: false,
-		validate: {
-		  notEmpty: {
-			  msg: "Please enter a description for the course"
-			}
-		}
     },
-      estimatedTime: {
+    estimatedTime: {
         type: Sequelize.STRING,
-        allowNull: true,
       },
-      materialsNeeded: {
+    materialsNeeded: {
         type: Sequelize.STRING,
-        allowNull: true,
       },
   }, { sequelize });
 
