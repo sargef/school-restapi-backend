@@ -161,7 +161,7 @@ router.put('/courses/:id', [
     const authenticatedUser = req.currentUser;
     const course = await Course.findByPk(req.params.id);
     if (authenticatedUser.id = course.userId) {
-      await course.save();
+      await course.update(req.body);
       res.status(204).end();
     } else {
       res.status(403).json({ message: 'You can only edit this course if you have authorized access credentials' });
