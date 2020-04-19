@@ -48,15 +48,16 @@ class Database {
     return this.context
       .execute(`
         INSERT INTO Courses
-          (userId, title, description, estimatedTime, materialsNeeded, createdAt, updatedAt)
+          (userId, title, description, estimatedTime, materialsNeeded, imagePic, createdAt, updatedAt)
         VALUES
-          (?, ?, ?, ?, ?, datetime('now'), datetime('now'));
+          (?, ?, ?, ?, ?, ?, datetime('now'), datetime('now'));
       `,
       course.userId,
       course.title,
       course.description,
       course.estimatedTime,
-      course.materialsNeeded);
+      course.materialsNeeded,
+      course.imagePic);
   }
 
   async hashUserPasswords(users) {
@@ -134,6 +135,7 @@ class Database {
         description TEXT NOT NULL DEFAULT '', 
         estimatedTime VARCHAR(255), 
         materialsNeeded VARCHAR(255), 
+        imagePic STRING,
         createdAt DATETIME NOT NULL, 
         updatedAt DATETIME NOT NULL, 
         userId INTEGER NOT NULL DEFAULT -1 
