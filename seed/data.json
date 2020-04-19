@@ -1,37 +1,84 @@
 {
   "users": [
     {
-      "firstName": "Joe",
-      "lastName": "Smith",
-      "emailAddress": "joe@smith.com",
-      "password": "joepassword"
-    },
-    {
-      "firstName": "Sally",
-      "lastName": "Jones",
-      "emailAddress": "sally@jones.com",
-      "password": "sallypassword"
+      "firstName": "Sarah",
+      "lastName": "Shelley",
+      "emailAddress": "sarah@bigpond.com",
+      "password": "sar"
     }
   ],
   "courses": [
     {
       "userId": 1,
-      "title": "Build a Basic Bookcase",
-      "description": "High-end furniture projects are great to dream about. But unless you have a well-equipped shop and some serious woodworking experience to draw on, it can be difficult to turn the dream into a reality.\n\nNot every piece of furniture needs to be a museum showpiece, though. Often a simple design does the job just as well and the experience gained in completing it goes a long way toward making the next project even better.\n\nOur pine bookcase, for example, features simple construction and it's designed to be built with basic woodworking tools. Yet, the finished project is a worthy and useful addition to any room of the house. While it's meant to rest on the floor, you can convert the bookcase to a wall-mounted storage unit by leaving off the baseboard. You can secure the cabinet to the wall by screwing through the cabinet cleats into the wall studs.\n\nWe made the case out of materials available at most building-supply dealers and lumberyards, including 1/2 x 3/4-in. parting strip, 1 x 2, 1 x 4 and 1 x 10 common pine and 1/4-in.-thick lauan plywood. Assembly is quick and easy with glue and nails, and when you're done with construction you have the option of a painted or clear finish.\n\nAs for basic tools, you'll need a portable circular saw, hammer, block plane, combination square, tape measure, metal rule, two clamps, nail set and putty knife. Other supplies include glue, nails, sandpaper, wood filler and varnish or paint and shellac.\n\nThe specifications that follow will produce a bookcase with overall dimensions of 10 3/4 in. deep x 34 in. wide x 48 in. tall. While the depth of the case is directly tied to the 1 x 10 stock, you can vary the height, width and shelf spacing to suit your needs. Keep in mind, though, that extending the width of the cabinet may require the addition of central shelf supports.",
-      "estimatedTime": "12 hours",
-      "materialsNeeded": "* 1/2 x 3/4 inch parting strip\n* 1 x 2 common pine\n* 1 x 4 common pine\n* 1 x 10 common pine\n* 1/4 inch thick lauan plywood\n* Finishing Nails\n* Sandpaper\n* Wood Glue\n* Wood Filler\n* Minwax Oil Based Polyurethane\n"
+      "title": "Laravel",
+      "description": "Learn to build application using Laravel. You will learn templating engine blade creation and use, How to create migrations and what they are for.\n\nLearn about views and what they are, How to connect to databases and learn about CRUD. You will also learn about form validation, version control and much more.....\nWhy should i even use Laravel?\nBecause it is a super clean, easy to use PHP framework. My personal experience (this is subjective) told me that it is way easier to understand than the whole Symfony framework (Laravel is built on Symfony) or the Zend Frameworks. Symfony and Zend are both great frameworks, for sure, but Laravel offers you simplicity.\n\nLaravel enables you to use best practice coding techniques for object-oriented programming. It comes with a powerful set of features for building solid web applications and assists you with solving common as well as complex problems.",
+      "estimatedTime": "32 hours",
+      "materialsNeeded": "* Laptop/PC\n* Internet connection\n* Text editor",
+      "imagePic": "https://alexadreamachiever.s3-eu-west-1.amazonaws.com/website/laravel.jpg"
     },
     {
-      "userId": 2,
+      "userId": 1,
       "title": "Learn How to Program",
-      "description": "In this course, you'll learn how to write code like a pro!",
-      "estimatedTime": "6 hours",
-      "materialsNeeded": "* Notebook computer running Mac OS X or Windows\n* Text editor"
+      "description": "Behind every mouse click and touch-screen tap, there is a computer program that makes things happen. This course introduces the fundamental building blocks of programming and teaches you how to write fun and useful programs using the Python language.\n\nYou will learn about Python as a language, how simple it is to learn. You will be introduced to Variables, functions, strings, booleans, if/else statements and more...\n\nThis is a great fundamental course to learn Python and will give you a good head start into a career in programming.",
+      "estimatedTime": "25 hours",
+      "materialsNeeded": "* Notebook computer running Mac OS X or Windows\n* Text editor",
+      "imagePic": null
     },
     {
-      "userId": 2,
-      "title": "Learn How to Test Programs",
-      "description": "In this course, you'll learn how to test programs."
+      "userId": 1,
+      "title": "MongoDB",
+      "description": "In this course, you'll learn all about MongoDB. Start by learning the fundamentals of MongoDB. Then, build and deploy an application leveraging any MongoDB driver.\n\nSet up your servers with basic administration. Analyze your data with MongoDB Aggregation Framework. Build your first app with a MongoDB Driver(in Python, Java, or JavaScript). Optimize the performance of your deployment. Learn MongoDB's data modeling methodology\nWhy should you learn MongoDB?\nDevelopers and companies are increasingly turning toward a database system offering better features and flexibility than many others on the market. In short, MongoDB is a flexible, scalable document database offering powerful storage and analytics capabilities. It’s also free.\n\nMongoDB is different from traditional relational databases in that it’s a document-oriented, NoSQL database. Relational systems—such as Oracle and MySQL—use tables, rows, and columns to store data. By contrast, MongoDB stores data in JSON-like documents, which enables users to work with different types of data. The cool thing about this is that you’re not forced to work with the same fields or data structures forever.\n\nMongoDB’s document-oriented model can be used with many programming languages to meet the complex development requirements of modern apps. While it can handle complex tasks, it’s not complicated to learn, and most developers get the hang of it quickly.",
+      "estimatedTime": "6 hours",
+      "materialsNeeded": "* Notebook computer running Mac OS X or Windows\n* Text editor",
+      "imagePic": "https://alexadreamachiever.s3-eu-west-1.amazonaws.com/website/mongodb.jpg"
+    },
+    {
+      "userId": 1,
+      "title": "React",
+      "description": "Thousands of other engineers have learned React and Redux, and you can too.  This course uses a time-tested, battle-proven method to make sure you understand exactly how React and Redux work, and will get you a new job working as a software engineer or help you build that app you've always been dreaming about.\n React is the most popular Javascript library of the last five years, and the job market is still hotter than ever.\n\nBesides just React and Redux, you'll pick up countless other tidbits of knowledge, including ES2015 syntax, popular design patterns, even the clearest explanation of the keyword 'this' in Javascript that you'll ever hear.\n\nCompanies large and small can't hire engineers who understand React and Redux fast enough, and salaries for engineers are at an all time high.  It's a great time to learn React!",
+      "estimatedTime": "36 hours",
+      "materialsNeeded": "* Notebook computer running Mac OS X or Windows\n* Text editor",
+      "imagePic": "https://alexadreamachiever.s3-eu-west-1.amazonaws.com/website/react.jpg"
+    },
+    {
+      "userId": 1,
+      "title": "SQL",
+      "description": "Get ready to acquire some seriously marketable programming skills! You can't consider yourself a complete end to end developer until you can code in SQL. Today, data has become the hottest topic in technology and a company's biggest asset is their data. All databases require the language SQL to store and retrieve data. Salaries for junior level SQL Developers are upwards of $70,000 - $90,000 dollars a year! The great thing is, for this course, you do not need any prior experience in programming what so ever.\n\nLearn how to use SQL to store, query, and manipulate data. SQL is a special-purpose programming language designed for managing data in a relational database, and is used by a huge number of apps and organizations.\n\nThis unique introductory SQL tutorial not only provides easy-to-understand SQL instructions, but it allows you to practice what you learn using the on-line SQL.",
+      "estimatedTime": "16 hours",
+      "materialsNeeded": "* Notebook computer running Mac OS X or Windows\n* Text editor",
+      "imagePic": "https://alexadreamachiever.s3-eu-west-1.amazonaws.com/website/sql.jpg"
+    },
+    {
+      "userId": 1,
+      "title": "Swift",
+      "description": "Swift is a powerful and intuitive programming language for macOS, iOS, watchOS, tvOS and beyond. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast.\n\nSwift 5.1 now makes it easier to create and share binary frameworks with others. It also includes features that make it easier to design better APIs and reduce the amount of common boilerplate code.\n\nSwift is the result of the latest research on programming languages, combined with decades of experience building Apple platforms. Named parameters are expressed in a clean syntax that makes APIs in Swift even easier to read and maintain. Even better, you don’t even need to type semi-colons. Inferred types make code cleaner and less prone to mistakes, while modules eliminate headers and provide namespaces. To best support international languages and emoji, Strings are Unicode-correct and use a UTF-8 based encoding to optimize performance for a wide-variety of use cases. Memory is managed automatically using tight, deterministic reference counting, keeping memory usage to a minimum without the overhead of garbage collection.\n\nThis course introduces you to the basics of the Swift programming lanugage. You will use the playground environment to instantly see what your code does. As you start to build apps, you will also use Xcode, with it's integrated development environment to help you solve errors and build interfaces for your apps.",
+      "estimatedTime": "52 hours",
+      "materialsNeeded": "* Notebook computer running Mac OS\n* Text editor",
+      "imagePic": "https://alexadreamachiever.s3-eu-west-1.amazonaws.com/website/swift.jpg"
+    },
+    {
+      "userId": 1,
+      "title": "CSS",
+      "description": "Learn how to style and visually organize HTML with CSS. This course covers version 3 of CSS.\n\nYou will learn Real-world skills to build real-world websites: professional, beautiful and truly responsive websites.\n\nYou will aquire Simple-to-use web design guidelines and tips to make your website stand out from the crowd.\n\nHave you taken other HTML and CSS courses, but still wonder how to code a real-world website, not just some basic examples? If your answer is a big YES... Then this is exactly the course you are looking for!",
+      "estimatedTime": "12 hours",
+      "materialsNeeded": "* Notebook computer running Mac OS X or Windows\n* Text editor",
+      "imagePic": "https://alexadreamachiever.s3-eu-west-1.amazonaws.com/website/css.jpg"
+    },
+    {
+      "userId": 1,
+      "title": "Programming",
+      "description": "Programming is the most sought-after skill today. According to Indeed, “Software Engineer” is the top in-demand position in the industry. Considering the huge demand for skilled programmers, it makes sense for job-seekers, how to learn programming for beginners.\n\nLearning programming seems difficult to many. This is often because of the wrong approach they apply to learn to code. People aspire to make complex applications, and they often don’t even know basic programming.\n\nFrom building websites to analyzing data, No matter your experience level, you'll be writing real, working code in minutes.\n\nYour code is tested as soon as you submit it, so you always know if you're on the right track. Apply your learning with real-world projects and test your knowledge with tailor-made quizzes.\n\nCoding skills have never been more in-demand. Learn everything you need to take your career to the next level.",
+      "estimatedTime": "22 hours",
+      "materialsNeeded": "* Notebook computer running Mac OS X or Windows\n* Text editor",
+      "imagePic": null
+    },
+    {
+      "userId": 1,
+      "title": "Vue",
+      "description": "Learn how to make front-end web apps with ease using Vue.js, an increasingly popular JavaScript front-end framework. Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.\n\nModern web apps require increasingly complicated front-ends that can handle large amounts of user interactions and dynamic data. For example, Instagram has over 95 million new posts added per day. Front-end frameworks are JavaScript libraries that make it easy to write the code to create and display this enormous amount of data.\n\nThere are many popular front-end frameworks used by engineers today, including React and Angular. Vue.js is an up-and-coming front-end framework that aims to combine the best aspects of all of these frameworks in one easy-to-use package. In fact, in the 2018 State of JavaScript survey, Vue.js was the most sought after front-end framework by a landslide, with 46.6% of all front-end developers saying that they want to learn it.\n\nIn short, Vue.js makes front-end web development easier and more exciting than it’s ever been. Jump in and find out what this front-end engineering trend is all about! ",
+      "estimatedTime": "42 hours",
+      "materialsNeeded": "* Notebook computer running Mac OS X or Windows\n* Text editor",
+      "imagePic": "https://alexadreamachiever.s3-eu-west-1.amazonaws.com/website/vue.jpg"
     }
   ]
 }
