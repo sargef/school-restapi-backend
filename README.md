@@ -23,7 +23,7 @@
 </br>
 <h4><b>9. Use 'POST', test creating courses to database http://localhost:5000/api/users</b></h4>
 </br>
-<p align="center"><a><img src="https://github.com/sargef/school-restapi-backend/blob/master/assets/postCourse.png" width="900" height="420"></a></p>
+<p align="center"><a><img src="https://github.com/sargef/school-restapi-backend/blob/master/assets/laravel.png" width="900" height="420"></a></p>
 </br>
 <h4><b>10. You can try omitting values required for each users and courses data values, partially entering data to test that the error messages are working.</b></h4>
 <br />
