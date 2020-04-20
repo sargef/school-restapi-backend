@@ -133,19 +133,24 @@ router.put('/courses/:id', authenticateUser, async (req, res, next) => {
     if (req.body.userId === course.userId) {
       if (req.body.title && req.body.description) {
         if (course === null) {
-          res.status(404).json({ message: "No course exists in the database for this reference" });
+          res.status(404).json();
+          message = "The course you are looking for does not exist!"
         } else {
           await course.update(req.body);
           res.status(204).end();
-        } 
-      } else if (err.name === "SequelizeValidationError") {
-      const errorMessages = err.errors.map(error => error.message);
-      res.status(400).json({ error: errorMessages });
-      } else {
-      res.status(403).json({ message: "Forbidden" });
+        }
+      } else if (!req.body.title || !req.body.description) {
+        res.status(400).json({
+          error: 
+          ["You must include a title and a description!"]
+        })
+      }
+    } else {
+      res.status(403).json();
+      message = "Forbidden" 
     }
   } catch(err) {
-      return next(err);
+    return next(err);
   }
 });
 
