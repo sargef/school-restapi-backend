@@ -1,5 +1,17 @@
 {
   "users": [
+         {
+      "firstName": "Joe",
+      "lastName": "Smith",
+      "emailAddress": "joe@smith.com",
+      "password": "joepassword"
+    },
+    {
+      "firstName": "Sally",
+      "lastName": "Jones",
+      "emailAddress": "sally@jones.com",
+      "password": "sallypassword"
+    },
     {
       "firstName": "Sarah",
       "lastName": "Shelley",
