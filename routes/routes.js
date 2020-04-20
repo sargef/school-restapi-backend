@@ -131,18 +131,21 @@ router.put('/courses/:id', authenticateUser, async (req, res, next) => {
   try {
     const course = await Course.findByPk(req.params.id)
     if (req.body.userId === course.userId) {
+      if (req.body.title && req.body.description) {
+        if (course === null) {
+          res.status(404).json({ message: "No course exists in the database for this reference" });
+        } else {
           await course.update(req.body);
           res.status(204).end();
-    } else {
+        } 
+      } else if (err.name === "SequelizeValidationError") {
+      const errorMessages = err.errors.map(error => error.message);
+      res.status(400).json({ error: errorMessages });
+      } else {
       res.status(403).json({ message: "Forbidden" });
     }
   } catch(err) {
-    if (err.name === "SequelizeValidationError") {
-      const errorMessages = err.errors.map(error => error.message);
-      res.status(400).json({ error: errorMessages });
-    } else {
       return next(err);
-    }
   }
 });
 
